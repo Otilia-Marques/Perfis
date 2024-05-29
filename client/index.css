@@ -1,63 +1,67 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
 }
 
-body{
+body {
     background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajuste para centralizar verticalmente */
+    margin: 0; /* Remove qualquer margem padrão */
 }
 
 .primeira {
     display: flex; /* Usa flexbox para criar um layout flexível */
     justify-content: center;
     align-items: center;
+    width: 80%; /* Ajuste conforme necessário */
 }
 
 .segunda, .signin {
-    padding: 100px;
     box-sizing: border-box;
 }
 
 .segunda {
-    width: 40%; /* Divide o espaço igualmente entre os lados */
+    width: 50%; /* Divide o espaço igualmente entre os lados */
 }
 
-.segunda img{
+.segunda img {
     width: 100%;
-    height: 100%;
+    height: auto; /* Mantém a proporção da imagem */
+    display: block;
 }
-
 
 .signin {
-    width: 60%; /* Divide o espaço igualmente entre os lados */
+    width: 50%; /* Divide o espaço igualmente entre os lados */
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-form{
+form {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 60%;
+    width: 100%;
     background-color: #fff;
     border: 2px solid greenyellow;
     border-radius: 20px;
-    padding: 0 10px;
+    padding: 20px; /* Adicionado padding para espaçamento interno */
 }
 
-.title{
+.title {
     font-size: 35px;
     color: black;
     margin-bottom: 10px;
     padding: 10px;
 }
 
-.input-field{
-    width: 100%;
+.input-field {
+    width: 80%;
     height: 50px;
     background: #f0f0f0;
     margin: 10px 0;
@@ -67,14 +71,14 @@ form{
     align-items: center;
 }
 
-.input-field i{
+.input-field i {
     flex: 1;
     text-align: center;
     color: gold;
     font-size: 18px;
 }
 
-.input-field input{
+.input-field input {
     flex: 5;
     border: none;
     background: none;
@@ -85,7 +89,7 @@ form{
     color: rgba(0, 0, 0, 0.644);
 }
 
-.btn{
+.btn {
     margin-top: 15px;
     width: 150px;
     height: 50px;
@@ -98,27 +102,27 @@ form{
     cursor: pointer;
 }
 
-.btn:hover{
+.btn:hover {
     background: rgb(201, 177, 43);
 }
 
-.social-text{
+.social-text {
     margin: 10px 0;
     font-size: 16px;
     padding: 10px;
 }
 
-a{
+a {
     text-decoration: none;
     color: gold;
 }
 
-.social-media{
+.social-media {
     display: flex;
     justify-content: center;
 }
 
-.social-icon{
+.social-icon {
     height: 45px;
     width: 45px;
     display: flex;
@@ -131,7 +135,7 @@ a{
     margin: 0 5px;
 }
 
-.social-icon:hover{
+.social-icon:hover {
     color: black;
     border-color: black;
 }
