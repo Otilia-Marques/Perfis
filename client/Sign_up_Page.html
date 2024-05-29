@@ -3,12 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="Sign_up_Page.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
         <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/10789/10789668.png" type="image/x-icon">
-        <title> Perfil </title>
+        <title> Registar-se </title>
     </head>
-
+    
     <body>
         <div class="primeira">
 
@@ -18,12 +18,22 @@
 
             <div class="signin"> 
                 <form action="" class="sign-in-form">
-                    
-                    <h2 class="title"> Sign in </h2>
-                    
+
+                    <h2 class="title"> Sign up </h2>
+
                     <div class="input-field">
                         <i class="fas fa-user">  </i>
                         <input type="text" placeholder="Username" required>
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fas fa-envelope">  </i>
+                        <input type="text" placeholder="Email" required>
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fas fa-phone">  </i>
+                        <input type="tel" placeholder="Telefone" required>
                     </div>
 
                     <div class="input-field">
@@ -31,8 +41,13 @@
                         <input type="password" placeholder="Password" required>
                     </div>
 
-                    <input type="submit" value="Login" class="btn">
-                        
+                    <div class="input-field">
+                        <i class="fas fa-lock">  </i>
+                        <input type="password" placeholder="Confirm Password" required>
+                    </div>
+
+                    <input type="submit" value="Sign Up" class="btn">
+
                     <p class="social-text">
                         Or sign in with social media
                     </p>
@@ -43,6 +58,7 @@
                         </a>
                         <a href="#" class="social-icon">
                             <i class="fab fa-instagram"></i>
+
                         </a>
                         <a href="#" class="social-icon">
                             <i class="fab fa-google"></i>
@@ -50,11 +66,25 @@
                         <a href="#" class="social-icon">
                             <i class="fab fa-tiktok"></i>
                         </a>
-
+        
                     </div>
 
-                    <p class="social-text"> Don´t have an account? <a href="Sign_up_Page.html" > Sign Up</a></p>
-                
+                    <div>
+                        <p class="social-text"> Ao se cadastrar, você aceita nossos 
+                            <span> 
+                                <a href="#"> termos de uso </a> 
+                                e 
+                                <a href="#"> política de privacidade </a>
+                            </span>
+                        </p>
+                    </div>
+
+                    <div> 
+                        <p class="social-text"> Already have an account?
+                            <a href="index.html"> Sign In </a> 
+                        </p> 
+                    </div>
+
                 </form>
 
             </div>

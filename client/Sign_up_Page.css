@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: gold;
+}
+
+.primeira {
+    display: flex; /* Usa flexbox para criar um layout flexível */
+    justify-content: center;
+    align-items: center;
+}
+
+.segunda, .signin {
+    padding: 100px;
+    box-sizing: border-box;
+}
+
+.segunda {
+    width: 40%; /* Divide o espaço igualmente entre os lados */
+}
+
+.segunda img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.signin {
+    width: 60%; /* Divide o espaço igualmente entre os lados */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    background-color: #fff;
+    border: 2px solid greenyellow;
+    border-radius: 20px;
+    padding: 0 10px;
+}
+
+.title{
+    font-size: 35px;
+    color: black;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.input-field{
+    width: 100%;
+    height: 50px;
+    background: #f0f0f0;
+    margin: 10px 0;
+    border: 2px solid gold;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.input-field i{
+    flex: 1;
+    text-align: center;
+    color: gold;
+    font-size: 18px;
+}
+
+.input-field input{
+    flex: 5;
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.644);
+}
+
+.btn{
+    margin-top: 15px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    background: gold;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: rgb(201, 177, 43);
+}
+
+.social-text{
+    margin: 10px 0;
+    align-items: center;
+    font-size: 16px;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: gold;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon{
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: gold;
+    border: 1px solid gold;
+    border-radius: 50px;
+    margin: 0 5px;
+}
+
+.social-icon:hover{
+    color: black;
+    border-color: black;
+}
+
+span{
+    display: block;
+    font-size: 18px;
+}
